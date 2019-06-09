@@ -5,112 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bingo Boomin</title>
+    <link href="index.css" rel="stylesheet">
 </head>
 <body>
-    <style>
-       .menu {
-           background: saddlebrown;
-           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           position: fixed;
-           width: 100%;
-           font-size: 25px;
-           padding: 15px;
-           border-bottom: 5px solid black
-       } 
+    <header>
+            <div class="menu">
+                    <span class="menu-left">Меню</span>
+                    <span class="menu-right">
+                        <a href="#">Главная</a>
+                        <a href="#main">Товары</a>
+                        <a href="#footer">Контакты</a>
+                        </span>
+                 </div>
+    </header>
+    <main id="main" class"main">
+            <div class="banner">
+                    <div class="background"></div>
+                    <div class="banner-title">Bingo Boomin</div>
+             </div>
 
-       .menu-right {
-           position: absolute;
-           right: 40px;
-
-       }
-
-       .menu-left {
-           font-weight: bold;
-       }
-
-       .menu-right a {
-           color: white;
-           text-decoration: none;
-           margin-left: 30px;
-       }
-       
-       .menu-right a:hover {
-           color:black;
-       }
-
-       body {
-           margin: 0;
-           background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
-           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-       }
-
-       .email {
-           display: inline-block;
-           margin-top: 80px;
-           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           font-size: 20px;
-       }
-
-       .search {
-          
-           margin: auto;
-           width: fit-content;
-           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           font-size: 20px;
-           margin-top: 80px;
-       }
-
-       .banner {
-           width: 100%;
-           height: 150px;
-           background: saddlebrown;
-           border-bottom: 5px solid black;
-        }
-
-        .banner-title {
-            position: relative;
-            width: fit-content;
-            margin: auto;
-            display: inline-block;
-            margin-top: 75px;
-            font-size: 50px;
-            font-weight: bold;
-            <p align="center">Главная.</p>
-        } 
-
-    </style>
-    <div class="menu">
-        <span class="menu-left">Меню</span>
-        <span class="menu-right">
-            <a href="https://vk.com/market-121971171?w=product-121971171_224580%2Fquery">Информация</a>
-            <a href="https://vk.com/market-121971171?w=product-121971171_224581%2Fquery">Продукты</a>
-            <a href="https://vk.com/hoodrichbingo">Контакты</a>  
-        </span>
-     </div>
-
-     <div class="banner">
-            <div class="background"></div>
-            <div class="banner-title">Главная</div>
-     </div>
-
-     <div>
-         <form>
-             <div class="email">
-            Введите почту для входа в аккаунт:
-            <input type="text" name="email">
-            <input type="button" value="Подтвердить">
-            </div>
-         </form>
-     </div>
-
-     <div>
-            <form action="https://yandex.ru/search/">
-                <div class="search">
-               Поиск в интернете:
-               <input type="text" name="text">
-               <input type="submit" value="Поиск">
-               </div>
-            </form>
+             <div class="main-cards">
+                 <div class="main-header">
+                     <h2>Лучшие Хомячки Мира</h2>
+                     <p>Если вам хочется тепла в этой жизни</p>
+                 </div>
+                 <div>
+                     <div class="main-leasing">
+                     <div class="leasing-card">
+                         <div class="card-image">
+                        <img width="200px" src="https://pp.userapi.com/c846420/v846420708/1eeb09/iDMnJvCrYY8.jpg">
+                        </div>
+                        <div class="card-text">
+                 <h4>MP3 Lease</h4>
+                 <p>Бит отдается в аренду, с правом записи и распространением записанного на него материала, но авторские права остаются за Bingo Boomin.</p>
+                 <p>Бит отдается в MP3 формате.</p>
+                 <a href="#" class="card-button">Подробнее</a>
+             </div>
+             </div>
+             <div class="leasing-card">
+                    <div class="card-image">
+                   <img width="200px" src="https://pp.userapi.com/c846020/v846020708/1ed8e3/HO_XwGcaZbI.jpg">
+                   </div>
+                   <div class="card-text">
+            <h4>WAV Lease</h4>
+            <p>Бит отдается в аренду, с правом записи и распространением записанного на него материала, но авторские права остаются за Bingo Boomin.</p>
+            <p>Бит отдается в WAV формате.</p>
+            <a href="#" class="card-button">Подробнее</a>
         </div>
+             
+    </main>
+    <footer class="footer" id="footer">
+            <div>
+                    <form>
+                        <div class="email">
+                       Введите почту для входа в аккаунт:
+                       <input class="form-text" type="text" name="email">
+                       <input class="form-button" type="button" value="Подтвердить">
+                       </div>
+                    </form>
+                </div>
+           
+                <div>
+                       <form action="https://yandex.ru/search/">
+                           <div class="search">
+                          Поиск в интернете:
+                          <input class="form-text" type="text" name="text">
+                          <input class="form-button" type="submit" value="Поиск">
+                          </div>
+                       </form>
+                   </div>
+           </body>
+    </footer>
+    
+
+
 </body>
 </html>

@@ -1,0 +1,114 @@
+.menu {
+    background: rgb(139, 69, 19);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom: 4px solid black
+} 
+
+.menu-right {
+    position: absolute;
+    right: 40px;
+
+}
+
+.menu-left {
+    font-weight: bold;
+}
+
+.menu-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.menu-right a:hover {
+    color:black;
+}
+
+body {
+    margin: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAACVBMVEX////8/Pz9/f2Cd5WuAAAC70lEQVR4nO3c63qjIBRG4cj9X3Rzag6KuD/YgIG1fs30me7KW2Kik/ZyISIiIiIiIiIiIiIiIiKimoUQlnvXP/Q+ltP3b3XT6n0sp++1s8Ay5IwV1nkMPU21sYbSAkvIGWvZNJKW87PhFstj6lliZwm9X2gVboPvQcvzr+Hjw+/z2I++UAmOWOEb6wUTsQIrjhWGxSpYwnw7q+Dl0RRYyxJdY8akCbBWWtmPR7DyJ4ElTNpiXWf+MlbcabUN8j4/ObnZAj07WBNYn3XAynumPUMjYlUbbsJKlWNVazHPtgfpNLgU64RWnbFkkeRIpyNX1uT0NdtiNbHqi+Vm1eiFaA2ssLmEzlu+/Xx2pWpxwto7SvepsVt2yRLzI4MLjte4qMR3tWjuAZbJKkSee3YGtDhfJa/eSuY2xmpych8EqwXVIFhNttVlCKzQymoULDeP9KJOjWV7ndXslkwtrEMFG9Zh7R6Dt/a/dfkjnSAsUo4SfQJLCSwhsOzxMBQCSwkse+wsIbBsud5SX46ujsACC6xIYAmBJQSWEFhCYAk5Y8VuIoO1okkEFlhgHQSWEFhCRViJ/5YDS9hPYIEFlrn6WKv3ZfVecEkNsL7ePgMWWGBtAksILCGwhMASyrk2nBbr4ntneQIs3x+3BAusR2AJcc4SYmcJgSUElhDnLKlyrSjSmmoMLNv74GOrP7YaDsv4U6pg3QPLnrazIv96JixtZ02OJe6srcNMWOLOmhuLnaW0XpTNSsdaGv5Oh5o9VpVadWZ79L0XXFJ4/oJjsAyBJQSWEFhCYAnVwopbgaVo/TrWApaWaa1ujr1XW5gFy80KLLDAigWWEFhCYAmBJQSWUMIo0pxGr8ASAksILCGwhMASAksILCGwMtsFC5JV72U0av/++ez7KBJYQmAJgSUElhBYQmDZC2AJfS865dX7SJ3yW0fqCsjtiwwTWEJgCXESt8czHhHVj9OJ0Egn4ZoXV/fPBcs+GyxhNljCbLCE2X9oE0oixvvfzwAAAABJRU5ErkJggg==);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+}
+
+.email {
+    display: inline-block;
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.search {
+   
+    margin: auto;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-image: url(https://media.giphy.com/media/u01ioCe6G8URG/giphy.gif);
+ }
+
+ .banner-title {
+     width: fit-content;
+     margin: auto;
+     display: inline-block;
+     margin-top: 75px;
+     font-size: 50px;
+     font-weight: bold;
+     margin-top: 300px;
+   } 
+
+.main-cards{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-header{
+    text-align: center;
+}
+
+.leasing-card{
+    border: 2px solid black;
+    width: 25px;
+    min-width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,5);
+    margin-bottom: 10px;
+}
+
+.card-button{
+    color: black !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+    border-radius: 15px;
+}
+
+.card-button:hover{
+        background-image: linear-gradient(0, red 0%, orange 100%);
+}
+
+.footer{
+    padding: 100px 15px;
+    background: blue;
+}
